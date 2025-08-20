@@ -351,8 +351,6 @@ export {
     bookAppointment,
     listAppointment,
     cancelAppointment,
-    paymentRazorpay,
-    verifyRazorpay,
     paymentStripe,
     verifyStripe
 }
