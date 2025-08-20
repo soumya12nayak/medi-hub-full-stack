@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: Outfit;
+}
+
+.active hr {
+    @apply block
+}
+
+@media (max-width:740px) {
+    .active  p{
+       @apply text-white bg-primary
+    }
+}
+
+::-webkit-scrollbar {
+    @apply hidden
+}
+
+#root {
+  background: linear-gradient(135deg, #e0f7fa, #e3f2fd, #f3e5f5);
+}
+
+@keyframes gradient-x {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient-x {
+  background-size: 200% 200%;
+  animation: gradient-x 8s ease infinite;
+}
