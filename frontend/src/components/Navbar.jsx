@@ -45,7 +45,7 @@ const Navbar = () => {
 
           {/* Admin Login (always shown) */}
           <a
-            href="http://localhost:5174/"
+            href="https://medi-hub-admin-ten.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="px-5 py-2 rounded-full font-semibold bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 text-transparent bg-clip-text bg-white/10 backdrop-blur-md border border-white/30 shadow-lg hover:bg-white/20 hover:scale-105 transition transform"
@@ -122,7 +122,7 @@ const Navbar = () => {
 
           {/* Admin Login (always shown in mobile menu) */}
           <a
-            href="http://localhost:5174/"
+            href="https://medi-hub-admin-ten.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="px-3 py-2 rounded-lg font-semibold text-blue-600 bg-white/60 backdrop-blur-md border border-gray-300 shadow hover:bg-white hover:scale-105 transition transform text-center"
